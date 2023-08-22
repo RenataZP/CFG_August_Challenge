@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RegistrationForm</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <div class="container">
+    <form id="Form1">
+        <h3>CREATE ACCOUNT</h3>
+            <input type="text" placeholder="Email" required>
+            <input type="password" placeholder="Password" required>
+            <input type="password" placeholder="Confirm password" required>
+            <div class="btn-box">
+                <button type="button" id="Next1">Next</button>
+            </div>
+
+    </form>
+    <form id="Form2">
+        <h3>PERSONAL INFO</h3>
+            <input type="text" placeholder="First Name" required>
+            <input type="text" placeholder="Adress" required>
+            <!-- what other personal info we need -->
+            <input type="text" placeholder="..." required>
+            <div class="btn-box">
+                <button type="button" id="Back1">Back</button>
+                <button type="button" id="Next2">Next</button>
+            </div>
+
+    </form>
+    <form id="Form3">
+        <h3>MY GARDEN</h3>
+        <div class = 'garden'> 
+            <input type="checkbox" name="vegatable" value="carrot"> carrot
+            <input type="checkbox" name="vegatable" value="cucumber" > cucumber
+            <!-- list of plants -->
+        </div>
+            <div class="btn-box">
+                <button type="button" id="Back2">Back</button>
+                <button type="button" id="Next3">Next</button>
+            </div>
+
+    </form>
+    <form id="Form4">
+        <h3>What I am looking for</h3>
+        <div class = 'garden'> 
+            <input type="checkbox" name="vegatable" value="carrot"> carrot
+            <input type="checkbox" name="vegatable" value="cucumber" > cucumber
+            <!-- list of plants -->
+        </div>
+            <div class="btn-box">
+                <button type="button" id="Back3">Back</button>
+                <button type="submit">Submit</button>
+            </div>
+
+    </form>
+    <div class="step-row">
+        <div id="progress"></div>
+        <div class="step-col"><small>STEP 1</small></div>
+        <div class="step-col"><small>STEP 2</small></div>
+        <div class="step-col"><small>STEP 3</small></div>
+        <div class="step-col"><small>STEP 4</small></div>
+
+    </div>
+  </div>
+  <script src="main.js"></script>
+ 
+</body>
+</html>

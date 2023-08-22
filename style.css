@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Roboto';
+}
+body{
+    background-image:url(./urban-garden-gardening-working-in-the-community-garden-in-davie-village-CWXK77.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.container{
+   width: 400px;
+   height: 600px;
+    margin: 8% auto;
+    background: rgb(167, 237, 191);
+    border-radius: 15px;
+    position: relative;
+    overflow: hidden;
+}
+h3{
+    text-align: center;
+    margin-bottom: 60px;
+    color: rgb(36, 123, 200);
+}
+.container form{
+    position: absolute;
+    width: 300px;
+    top: 120px;
+    left: 40px;
+    /* how smooth transition is */
+    transition: 0.5s; 
+
+}
+form input{
+    width: 300;
+    padding: 10px 5px;
+    margin: 5px 0;
+    border: 0;
+    border-bottom: 1px solid blue;
+    background: transparent;
+    outline: none;
+
+}
+::placeholder{
+    color: rgb(36, 123, 200);
+}
+.btn-box{
+    width: 100%;
+    text-align: center;
+}
+form button{
+    width: 120px;
+    height: 45px;
+    background: linear-gradient(to left, rgb(63, 63, 210),rgb(160, 165, 229));
+    border: 0;
+    border-radius: 30px;
+    margin-top: 80px;
+    margin-right: 15px;
+    cursor: pointer;
+    color: rgb(2, 42, 77);
+}
+#Form2{
+    left: 450px;
+}
+#Form3{
+    left: 450px;
+}
+#Form4{
+    left: 450px;
+}
+.step-row{
+    width:450px;
+    height: 50px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 -1px 5px rgb(2, 42, 77);
+    position: relative;
+
+}
+.step-col{
+width: 100px;
+text-align: center;
+color:rgb(2, 42, 77);
+position: relative;
+}
+#progress{
+   position: absolute;
+   height: 100%;
+   width: 100px;
+   background: linear-gradient(to left, rgb(63, 63, 210),rgb(160, 165, 229));
+   transition: 1s;
+}
+#progress::after{
+    content: '';
+    height: 0;
+    width: 0;
+    border-top: 25px solid transparent;
+    border-bottom: 25px solid transparent;
+    position: absolute;
+    right: -20px;
+    top: 0;
+    border-left: 20px solid rgb(63, 63, 210);
+
+}
+.garden{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    /* text-align: start; */
+}
