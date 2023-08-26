@@ -1,21 +1,21 @@
 *{
     margin: 0;
     padding: 0;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
-    
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif  
 }
 .footer{
     position: fixed;
-    left: 0;
+    right:100px;
     bottom: 0;
     width: 100%
     border: 0;
-    border-top: 3px solid black;
+    border-top: 1px solid black;
+    color: rgb(85, 84, 87)
+    
 }
 .header{
     border: 0;
     border-bottom: 1px solid black;
-    /* margin-bottom: 20px; */
     margin-top: 90px;
     margin-left: 100px;
     margin-right: 100px;
@@ -25,13 +25,9 @@
     display: flex;
     flex-direction: row;
     position: relative;
-    align-items: center;
-    
-    
-    
+    align-items: center;  
 }
 .MFG{
-    /* background-color: whitesmoke; */
     align-items: center;
    margin-left: 100px;
    margin-top: 40px;
@@ -44,8 +40,7 @@ p{
 h1{
     margin-bottom: 15px;
     font-size: x-large;
-    color: rgb(85, 84, 87);
-    
+    color: rgb(85, 84, 87);  
 }
 .container{
     width: 400px;
@@ -69,7 +64,6 @@ h1{
      left: 40px;
      /* how smooth transition is */
      transition: 0.5s; 
- 
  }
  form input{
      width: 300;
@@ -79,7 +73,6 @@ h1{
      border-bottom: 1px solid blue;
      background: transparent;
      outline: none;
- 
  }
  ::placeholder{
      color: rgb(36, 123, 200);
@@ -116,7 +109,6 @@ h1{
      align-items: center;
      box-shadow: 0 -1px 5px rgb(2, 42, 77);
      position: relative;
- 
  }
  .step-col{
  width: 100px;
@@ -141,11 +133,11 @@ h1{
      right: -20px;
      top: 0;
      border-left: 20px solid rgb(63, 63, 210);
- 
  }
  .garden{
      display: flex;
      flex-direction: column;
      align-items: start;
-     /* text-align: start; */
+     color: rgb(85, 84, 87)
+     
  }
